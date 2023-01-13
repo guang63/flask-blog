@@ -1,0 +1,6 @@
+*.pyc
+virt
+x*
+*.db
+.DS_Store
+logs*
