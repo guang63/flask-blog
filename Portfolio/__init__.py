@@ -20,8 +20,8 @@ ckeditor = CKEditor(app)
 # Add Database
 # sqlite
 # app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///users.db'
-# School MySQL db
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://c21053138:4zw2E8Wd93kkrDU@csmysql.cs.cf.ac.uk:3306/c21053138_database1'
+# MySQL db
+app.config['SQLALCHEMY_DATABASE_URI'] = ''
 
 # Secret Key
 app.config['SECRET_KEY'] = "You are not suppose to know"
